@@ -44,7 +44,7 @@ Used `tf.data.Dataset` to boost training performance
 
 #### Metrics
 - [Binary IoU](https://github.com/Basars/basars-addons/blob/main/basars_addons/metrics/intersection_over_union.py)
-  - Number of classes = 2 (default) 
+  - Number of classes = 2 (default)
   - Threshold = 0.5
 
 #### Optimizer
@@ -58,3 +58,15 @@ Used `tf.data.Dataset` to boost training performance
       - t_mul = 1.0
       - m_mul = 1.0 (default)
       - alpha = 0.0 (default)
+
+Cosine Annealing Warmup Restarts:
+
+![lr_schedule](https://github.com/Basars/segmentation-experiments/blob/main/static/lr_schedule.png)
+
+### Results
+
+#### Loss
+![loss_graph](https://github.com/Basars/segmentation-experiments/blob/main/static/loss.png)
+
+### IoU
+![iou_graph](https://github.com/Basars/segmentation-experiments/blob/main/static/iou.png)

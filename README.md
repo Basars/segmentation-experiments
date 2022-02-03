@@ -64,9 +64,7 @@ Cosine Annealing Warmup Restarts:
 ![lr_schedule](https://github.com/Basars/segmentation-experiments/blob/main/static/lr_schedule.png)
 
 ### Results
+![loss_graph](https://github.com/Basars/segmentation-experiments/blob/main/static/loss.png) ![iou_graph](https://github.com/Basars/segmentation-experiments/blob/main/static/iou.png)
 
-#### Loss
-![loss_graph](https://github.com/Basars/segmentation-experiments/blob/main/static/loss.png)
-
-### IoU
-![iou_graph](https://github.com/Basars/segmentation-experiments/blob/main/static/iou.png)
+#### Evaluation
+![performance](https://github.com/Basars/segmentation-experiments/blob/main/static/performance.png)
